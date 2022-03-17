@@ -105,7 +105,7 @@ list-style: none;
 
 .sidebar--opened {
     width: 256px;
-    padding: 0 3% 0 4%;
+    padding: 0 2% 0 2%;
 }
 
 .sidebar__menu {
