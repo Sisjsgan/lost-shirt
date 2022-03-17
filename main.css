@@ -30,7 +30,7 @@ html, body {
 body {
     font: 16px / 1.14 "Roboto", Arial, sans-serif;
     font-size: 16px;
-    line-height: 1.4;
+    line-height: 1.3;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -89,7 +89,7 @@ list-style: none;
 }
 
 .sidebar {
-    width: 75px;
+    width: 50px;
     position: absolute;
     left: 0;
     top: 0;
@@ -104,7 +104,7 @@ list-style: none;
 }
 
 .sidebar--opened {
-    width: 325px;
+    width: 261px;
     padding: 0 3% 0 4%;
 }
 
@@ -122,15 +122,15 @@ list-style: none;
 }
 
 .sidebar__hamburger-icon {
-    width: 29px;
-    height: 29px;
+    width: 63px;
+    height: 38px;
     fill: #ffbc2f;
 }
 
 .sidebar__hamburger {
     display: block;
     position: absolute;
-    top: 27px;
+    top: 2px;
     left: 50%;
     transform: translate(-50%);
 }
@@ -159,21 +159,22 @@ list-style: none;
 
 .sidebar__close {
     position: absolute;
-    top: -4px;
+    top: -22px;
     right: 23px;
     left: 70px;
     color: #ffbc2f;
 }
 
 .sidebar__close :hover {
-    color: #d82727;
+    color: #E52A39;
 }
 
 .sidebar__close-icon {
-    width: 459px;
-    height: 43px;
+    width: 381px;
+    height: 47px;
     fill: #ffbc2f;
 }
+
 
 .side-menu__item {
     margin-bottom: 20px;
@@ -634,8 +635,8 @@ margin-right: 0px;
 
 svg {
     margin: -2em;
-    width: 162px; 
-    height: 59px;
+    width: 100px; 
+    height: 52px;
   }
   #robot-1 {
     --primary-color: #0099CC;
