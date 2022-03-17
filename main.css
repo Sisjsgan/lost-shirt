@@ -611,7 +611,7 @@ color: #fff;
     margin-right: 50px;
 }
 
-.socials-item:last-child {
+.socials__item:last-child {
 margin-right: 0px;
 }
 
@@ -633,9 +633,9 @@ margin-right: 0px;
 
 
 svg {
-    margin: 1em;
-    width: 240px; 
-    height: 400px;
+    margin: -2em;
+    width: 162px; 
+    height: 59px;
   }
   #robot-1 {
     --primary-color: #0099CC;
