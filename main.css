@@ -165,14 +165,14 @@ list-style: none;
     color: #ffbc2f;
 }
 
-.sidebar__close :hover {
+.sidebar__close:hover {
     color: #E52A39;
 }
 
 .sidebar__close-icon {
     width: 503px;
     height: 47px;
-    fill: #E52A39;
+    fill: #ffbc2f;
 }
 
 
