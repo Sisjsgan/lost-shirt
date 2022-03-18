@@ -104,7 +104,7 @@ list-style: none;
 }
 
 .sidebar--opened {
-    width: 256px;
+    width: 20%;
     padding: 0 2% 0 2%;
 }
 
@@ -160,8 +160,8 @@ list-style: none;
 .sidebar__close {
     position: absolute;
     top: -22px;
-    right: 23px;
-    left: 70px;
+    right: 29px;
+    left: 40%;
     color: #ffbc2f;
 }
 
