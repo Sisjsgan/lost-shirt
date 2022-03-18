@@ -324,7 +324,7 @@ margin-right: 0;
 .products__list {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -28px;
+    margin-left: 0px;
 }
 
 .products__item {
