@@ -626,8 +626,9 @@ margin-right: 0px;
     display: block;
 }
 
-.socials__link:hover.socials-icon {
+.socials-icon:hover {
     fill:#d82727;
+    color:#E52A39
 }
 
 .socials-item {
