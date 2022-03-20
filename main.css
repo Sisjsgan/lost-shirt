@@ -368,11 +368,11 @@ margin-right: 0;
 
 .products__item--color-black .products__price {
     border-bottom-color: #ffc92f;  
-  }
+}
 
-  .products__item--color-black .products__price-amount {
+.products__item--color-black .products__price-amount {
     color: #212121;
-  }
+}
 
 .products__item--size-double {
     width: 620px;
@@ -665,3 +665,237 @@ svg {
     margin: 3em auto;
     color: grey;
   }
+
+.container-2 {
+    margin: 0 auto; 
+    width: 1300px;
+}
+
+.hero-2 {
+    height: 0vh;
+    min-height: 185px;
+    background: url(./img/bg/hero.jpg) center center / cover no-repeat;
+    position: relative;
+    margin-bottom: 130px;
+}
+
+.fade-slider-2 {
+    display: block;
+    top: 23%;
+    margin: -20px 0px 20px 35%;
+}
+
+.lined-text-2 {
+    font-family: "Roboto", Arial, sans-serif;
+    color: #fff;
+    font-size: 32px;
+    text-transform: uppercase;
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-158%, -66%);
+}
+
+.hero__content-2 {
+    height: 100%;
+    align-items: center;
+    overflow: hidden;
+    margin-top: -10.2%;
+}
+
+.products-2 {
+    margin-bottom: 160px;
+}
+
+.products__list-2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 7%;
+    margin-top: -5%;
+}
+
+.products__item-2 {
+    width: 1000px;
+    height: 600px;
+    background: #fcb913;
+    margin-bottom: 35px;
+    margin-left: 27px;
+    position: relative;
+}
+
+.products__img-2 {
+    display: block;
+    max-width: 46%;
+    margin-top: 11%;
+    margin-left: 3%;
+}
+
+.products__price-2 {
+    position: absolute;
+    top: 18px;
+    left: -6px;
+    width: 126px;
+    border-bottom: 45px solid #232323;
+    border-left: 5px solid transparent;
+    border-right: 2px solid transparent;
+    transform: rotate(-181deg);
+}
+
+.products__price-amount-2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Yanone Kaffeesatz', Arial, sans-serif;
+    color: #fff;
+    transform: rotate(181deg);
+    position: absolute;
+    top: 2px;
+    right: 28px;
+}
+
+.products__item-2--color-black {
+  background: #232323;  
+}
+
+.products__item-2--color-black .products__price-2 {
+    border-bottom-color: #ffc92f;  
+}
+
+.products__item-2--color-black .products__price-amount-2 {
+    color: #212121;
+}
+
+.products__item-2--size-double {
+    width: 620px;
+    height: 544px;
+}
+
+.products__content-2 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.products__item-2:hover .products__desc-text-1 .products__desc-text-2 .products__desc-text-3 {
+    transform: translateY(0%);
+
+}
+
+.products__desc-text-1 {
+    position: relative;
+    bottom: 398px;
+    left: 0;
+    right: 0;
+    padding: 77px;
+    background: rgba(252 245 230);
+    font-size: 15px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 500px;
+    z-index: 10;
+}
+
+.products__desc-text-2 {
+    position: relative;
+    bottom: 187px;
+    left: 0;
+    right: 0;
+    padding: 77px;
+    background: rgba(252 245 230);
+    font-size: 15px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 500px;
+    z-index: 20;
+}
+
+.products__desc-text-3 {
+    position: relative;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    padding: 77px;
+    background: rgba(252 245 230);
+    font-size: 15px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 500px;
+    z-index: 100;
+}
+
+.btn-1 {
+    text-transform: uppercase;  
+    font-family: 'Yanone Kaffeesatz', Arial, sans-serif;
+    font-size: 21px;
+    padding: 2px 30px;
+    background: #000;
+    color: #ffc92f;
+    display: inline-block;
+    text-decoration: none;
+    z-index: 10;
+}
+  
+.btn-1:hover {
+    background: #d82727;
+    color:#fff
+}
+
+.btn-2 {
+    text-transform: uppercase;  
+    font-family: 'Yanone Kaffeesatz', Arial, sans-serif;
+    font-size: 21px;
+    padding: 2px 30px;
+    background: #000;
+    color: #ffc92f;
+    display: inline-block;
+    text-decoration: none;
+    z-index: 20;
+    margin-left: 20px;
+}
+  
+.btn-2:hover {
+    background: #d82727;
+    color:#fff
+}
+
+.btn-3 {
+    text-transform: uppercase;
+    font-family: 'Yanone Kaffeesatz', Arial, sans-serif;
+    font-size: 21px;
+    padding: 2px 30px;
+    background: #000;
+    color: #ffc92f;
+    display: inline-block;
+    text-decoration: none;
+    z-index: 100;
+}
+  
+.btn-3:hover {
+    background: #d82727;
+    color:#fff
+}
+
+  
+
+  
+
+
+
+  
+
+
